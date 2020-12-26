@@ -1,0 +1,7 @@
+{
+    "defaultTitle": "Picker",
+    "usingComponents": {
+        "popup": "/component/Popup/index",
+        "dd-picker": "/component/Picker/index"
+    }
+}

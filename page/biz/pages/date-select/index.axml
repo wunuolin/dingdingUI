@@ -1,0 +1,5 @@
+<view class="selectdate">
+  <!-- 需要开始和结束的年数（默认结束的是当前年月份，默认开始是2000) startyear endyear -->
+  <date-select onSubmit="handleSubmit" startyear="{{2015}}" endyear="{{2020}}"/>
+  <view>当前选择的日期：{{value}}</view>
+</view>

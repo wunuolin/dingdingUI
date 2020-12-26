@@ -1,0 +1,7 @@
+{
+    "defaultTitle": "list-component",
+    "usingComponents": {
+      "list-com": "/component/List-component/index",
+      "list-item": "/component/List-component/list-item/index"
+    }
+  }

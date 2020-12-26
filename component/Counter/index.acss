@@ -1,0 +1,33 @@
+.am-stepper-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  line-height: 70rpx;
+  font-size: 40rpx;
+  width: 280rpx;
+  color: #000;
+  border: 1rpx solid #dcdfe6;
+}
+
+.am-stepper-reduce,
+.am-stepper-add {
+  box-sizing: border-box;
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70rpx;
+  background-color: #f5f7fa;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1rpx solid #dcdfe6;
+  border-right: 1rpx solid #dcdfe6;
+}
+
+.am-stepper-input {
+  box-sizing: border-box;
+  flex: 3;
+  height: 70rpx;
+  padding-left: 53rpx;
+  color: #000;
+}

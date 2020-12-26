@@ -1,0 +1,10 @@
+<template name="picker">
+    <picker-view value="{{value.arr}}" onChange="onPickerChange" class="my-picker">
+        <picker-view-column>
+          <!-- 初始值，当滑动了按下确认键时，当没有滑动时的确定，外面的显示值 -->
+            <block a:for="{{pickerlist}}">
+                <view>{{item.text}}</view>
+            </block>
+        </picker-view-column>
+    </picker-view>
+</template>

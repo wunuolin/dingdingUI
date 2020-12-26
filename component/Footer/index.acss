@@ -1,0 +1,31 @@
+.am-footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.am-footer-link {
+  height: 34rpx;
+  line-height: 34rpx;
+  color: #108ee9;
+  font-size: 24rpx;
+}
+
+.am-footer-link::after {
+  content: '｜';
+  padding: 0 10rpx;
+  height: 34rpx;
+  color: #ccc;
+}
+
+.am-footer-link:last-child::after {
+  display: none;
+}
+
+.am-footer-copyright {
+  margin-top: 6rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  color: #ccc;
+  font-size: 28rpx;
+  text-align: center;
+}

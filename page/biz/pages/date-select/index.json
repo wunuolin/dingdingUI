@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Date-select",
+  "usingComponents": {
+    "date-select": "/component/Date-select/index"
+  }
+}

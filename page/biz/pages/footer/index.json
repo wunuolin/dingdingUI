@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Footer",
+  "usingComponents":{
+    "footer": "/component/Footer/index"
+  }
+}

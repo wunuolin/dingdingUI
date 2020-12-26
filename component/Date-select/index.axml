@@ -1,0 +1,25 @@
+<view>
+  <view class="zhezao" animation="{{animationInfo}}" a:if="{{flag}}">
+    <view class="t_w">
+      <view class="tanchu_view">
+        <view class="viewtit">请选择需要查看的年月</view>
+        <view class="pv-container">
+          <picker-view value="{{searchdate.ymstr}}" onChange="onChangeDate" class="viewcon">
+            <picker-view-column>
+              <block a:for="{{yearMonth[1]}}">
+                <view a:key="{{index}}">{{item}}年</view>
+              </block>
+            </picker-view-column>
+            <picker-view-column>
+              <block a:for="{{yearMonth[0]}}">
+                <view a:key="{{index}}">{{item}}月</view>
+              </block>
+            </picker-view-column>
+          </picker-view>
+        </view>
+        <view class="viewbot"><text onTap="viewCancle">取消</text><text onTap="viewConfirm">确认</text></view>
+      </view>
+    </view>
+  </view>
+  <button size="default" type="primary" onTap="tapShow">点击显示</button>
+</view>

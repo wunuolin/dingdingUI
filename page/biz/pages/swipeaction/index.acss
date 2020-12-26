@@ -1,0 +1,6 @@
+/* required by usingComponents */
+.thelist{
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+  background-color: #fff;
+}

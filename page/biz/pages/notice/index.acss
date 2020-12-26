@@ -1,0 +1,10 @@
+.demo-title{
+  font-size: 30rpx;
+  font-weight: 500;
+  padding: 10px 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.demo-item{
+  margin-bottom: 20rpx;
+}

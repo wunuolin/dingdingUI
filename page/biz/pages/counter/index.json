@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Counter",
+  "usingComponents": {
+    "dd-counter": "/component/Counter/index"
+  }
+}

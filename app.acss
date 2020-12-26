@@ -1,0 +1,6 @@
+@import "/util/css/canBeDel.acss";
+@import "./iconfont.acss";
+
+.btn-round{
+  border-radius: 47rpx;
+}

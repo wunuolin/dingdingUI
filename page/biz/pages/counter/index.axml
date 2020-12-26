@@ -1,0 +1,5 @@
+<view class="page">
+  <view class="page-description">Counter </view>
+  <dd-counter onChange="callBackFn" step="{{1}}" showNumber readOnly="{{false}}" value="{{5}}" min="{{2}}" max="{{12}}"/>
+  <view style="padding-top: 10px;font-size: 30rpx;">当前的值为: {{val}}</view>
+</view>

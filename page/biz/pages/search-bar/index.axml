@@ -1,0 +1,12 @@
+<view>
+  <search-bar
+    value="{{value}}"
+    placeholder="搜索"
+    onInput="handleInput"
+    onClear="handleClear"
+    onFocus="handleFocus"
+    onBlur="handleBlur"
+    onSubmit="handleConfirm"
+    showCancelButton="{{false}}" />
+    <view>搜索的内容是：{{val}}</view>
+</view>

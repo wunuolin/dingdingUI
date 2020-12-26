@@ -1,0 +1,45 @@
+button+button {
+  margin-top: 32rpx;
+}
+
+.mealnum {
+  display: flex;
+  margin-bottom: 35rpx;
+  font-size: 34rpx;
+}
+
+.mealnum text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+}
+
+.mealnum view {
+  position: relative;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 14rpx 0;
+  flex: 3;
+  border: 1rpx solid #d7d7d7;
+  text-indent: 9rpx;
+}
+
+.icon, .inputr {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-right: 10rpx;
+}
+
+.inputl {
+  position: absolute;
+  height: 40rpx;
+  font-size: 35rpx;
+  margin-top: -4rpx;
+  border: 0;
+  outline: none;
+  background-color: #fff;
+}

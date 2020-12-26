@@ -1,0 +1,14 @@
+<import src="/util/picker/index.axml"/>
+<view>
+  <popup show="{{showBottom}}" position="bottom" onClose="onPopupClose">
+    <view class="box bottom">
+      <view class="pickertop">
+        <text onTap="tapCancel">取消</text>
+        <text onTap="tapConfirm">确认</text>
+      </view>
+      <template is="picker" key="picker" data="{{pickerlist}}"/>
+    </view>
+  </popup>
+  <button class="btn" onTap="onBottomBtnTap">弹出</button>
+  <view>确认选择：{{valobj.text}}</view>
+</view>

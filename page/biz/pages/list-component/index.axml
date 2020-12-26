@@ -1,0 +1,59 @@
+<view class="page">
+    <scroll-view style="height: 100vh;" scroll-y onScrollToLower="onScrollToLower">
+        <view class="page-description">组件 : list-item </view>
+        <view style="margin-bottom: 30px;">
+            <block a:for="{{items}}">
+                <!-- 
+                    thumb(图片/图片小尺寸) 
+                    arrow(是否有右箭头/值：boolean) 
+                    title>标题/brief>描述(双行列表/值：string) 
+                    extra(右边显示，即代替箭头的位置/值：string)
+                    align(extra的垂直位置/值：middle、top、bottom)
+                    sticky(固定在头部)
+                    multipleLine="{{true}}" (图片中尺寸)
+                -->
+				<list-item
+					thumb="{{item.thumb}}" 
+					arrow="{{item.arrow}}"
+					align="{{item.align}}"
+					index="{{index}}"
+					onClick="onItemClick"
+					key="items-{{index}}"
+					last="{{index === (items.length - 1)}}"
+                    multipleLine="{{true}}"
+				>
+					{{item.title}}
+					<view class="am-list-brief">{{item.brief}}</view>
+					<view slot="extra">
+						{{item.extra}}
+					</view>
+			 </list-item>
+			</block>
+        </view>
+
+        <view class="page-description">组件 : list </view>
+        <list-com>
+			<view slot="header">
+				列表头部
+			</view>
+            <block a:for="{{items2}}">
+				<list-item
+					arrow="{{item.arrow}}"
+					onClick="onItemClick"
+					index="items2-{{index}}"
+					key="items2-{{index}}"
+					last="{{index === (items2.length - 1)}}"
+				>
+					{{item.title}}
+					<view class="am-list-brief">{{item.brief}}</view>
+					<view a:if="{{item.extra}}" slot="extra">
+						{{item.extra}}
+					</view>
+				</list-item>
+			</block>
+            <view slot="footer">
+				列表尾部
+			</view>
+        </list-com>
+    </scroll-view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Swipeaction",
+  "usingComponents": {
+    "swipe-action": "/component/Swipeaction/index",
+    "list-item": "/component/List-component/list-item/index"
+  }
+}

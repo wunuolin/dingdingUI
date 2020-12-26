@@ -1,0 +1,6 @@
+.selectdate{
+  width: 100%;
+}
+button{
+  margin: 30rpx;
+}
